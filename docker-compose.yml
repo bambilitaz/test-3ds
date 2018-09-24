@@ -1,0 +1,7 @@
+video-list:
+    image: php:7.2-apache
+    container_name: video-list
+    ports:
+     - 8080:80
+    volumes:
+     - ./src/:/var/www/html/
